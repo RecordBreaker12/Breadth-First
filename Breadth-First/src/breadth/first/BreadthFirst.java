@@ -19,6 +19,7 @@ public class BreadthFirst {
             atual = fila.remove();
             System.out.println("Visitou no com valor: " + atual.getValor());
             if(atual.getValor().equals(valor)){
+                System.out.println("Valor encontrado.");
                 return Optional.of(atual);
             }
             else{
