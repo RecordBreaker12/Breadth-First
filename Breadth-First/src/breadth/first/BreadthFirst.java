@@ -27,6 +27,7 @@ public class BreadthFirst {
                 fila.removeAll(jaVisitou);
             }
         }
+        System.out.println("Valor não encontrado.");
         return Optional.empty();
     }
     
