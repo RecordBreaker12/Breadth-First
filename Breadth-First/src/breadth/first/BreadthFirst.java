@@ -31,6 +31,7 @@ public class BreadthFirst {
     }
     
     public static void main(String[] args) {
+        //**Representacao da imagem de exemplo**//
         No no0 = new No(0);
         No no1 = new No(1);
         No no2 = new No(2);
